@@ -8,8 +8,9 @@ public class GameManager : MonoBehaviour {
     int moedas = 0;
     int xp = 0;
     
-    // Evento que dispara sempre que as moedas mudam
+    // Eventos
     public Action<int> OnCoinsChanged, OnCoinsCollected, OnXPChanged;
+    public Action<int> OnMesaArrive;
 
     void Awake() {
         if (instance == null) {
@@ -47,5 +48,10 @@ public class GameManager : MonoBehaviour {
 
     public int GetXP() {
         return xp;
+    }
+
+    public void HandleMesaVisited(int mesa) {
+        if (OnMesaArrive != null)
+            OnMesaArrive(mesa);
     }
 }

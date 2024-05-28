@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b264fee87f63a45bb87c03f63dbec5, type: 3}
+  m_Name: VisitMesa1
+  m_EditorClassIdentifier: 
+  questId: VisitMesa1
+  introductionText: "Voc\xEA poderia checar as mesas 1, 2 e 3 respectivamente pra
+    mim?"
+  questText: "S\xF3 passe pelas mesas 1, 2 e 3 respectivamente."
+  finishedText: "Ah, ent\xE3o est\xE3o todas vazias? Ok. Obrigado!"
+  xpRequirement: 5
+  steps:
+  - {fileID: 2352822008559395185, guid: b30b2da3ea126664f87f89697e762946, type: 3}
+  - {fileID: 2352822008559395185, guid: 506dfe27f9c23a34584fcee7c9a47bdc, type: 3}
+  - {fileID: 2352822008559395185, guid: 30b020c1bb0c63a4cb6ffff243f7f57e, type: 3}
+  xpReward: 10
+  goldReward: 3
